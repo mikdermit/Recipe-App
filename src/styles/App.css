@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
 
-.App {
-  padding: 1em;
-}
-
 label {
   display: inline-block;
   width: 100px;
@@ -65,7 +61,25 @@ td {
 thead th:nth-child(4), thead th:nth-child(5), td:nth-child(4), td:nth-child(5) {
   width: 30%;
 }
+.rs-form-control-label {
+  white-space: nowrap;
+}
 
+button.plus {
+  color: green !important;
+  font-size: 1rem;
+}
+button.plus:hover, button.plus:focus {
+ 
+  text-decoration: none;
+}
+.rs-form-help-text {
+  color: red;
+}
+.btn-danger:hover {
+  background-color: darkred !important;
+  color: white;
+}
 /* table */
 
 table {
